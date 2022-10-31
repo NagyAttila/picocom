@@ -505,7 +505,7 @@ struct tty_q {
 #define TTY_TIME_DISPLAY	1
 #define TTY_TIME_NONE		0
 int tty_time = TTY_TIME_RESET;
-int tty_time_enable = 0;
+int tty_time_enable = 2;
 
 void
 loop(void)
